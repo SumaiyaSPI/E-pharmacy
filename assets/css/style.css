@@ -145,7 +145,8 @@ figure {
   clear: both; }
 
 .container {
-  max-width: 1430px; }
+  max-width: 1290px;
+}
 
 @media only screen and (max-width: 767px) {
   .container {
@@ -230,7 +231,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     Scroll Up 
 -----------------------------------------*/
 #scrollUp {
-  background: #c40316 none repeat scroll 0 0;
+  background: #593477 none repeat scroll 0 0;
   bottom: 85px;
   color: #ffffff;
   cursor: pointer;
@@ -732,7 +733,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 /*header top css here*/
 .header_top {
-  border-bottom: 1px solid #ebebeb; }
+  border-bottom: 1px solid #6ba43a; }
   @media only screen and (max-width: 767px) {
     .header_top {
       display: none; } }
@@ -806,7 +807,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
       margin-right: 15px;
       padding-right: 0; } }
   .header_top_settings ul li::before {
-    background: #ebebeb;
+    background: #6ba43a;
     content: '';
     display: block;
     height: 20px;
@@ -832,7 +833,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     .header_top_settings ul li:last-child::before {
       display: none; }
   .header_top_settings ul li a:hover {
-    color: #c40316; }
+    color: #6ba43a; }
 
 /*header top css end*/
 /* 2.2 header middel css here */
@@ -899,6 +900,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
       font-weight: 500;
       position: relative;
       color: #222222; }
+
+
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .main_menu nav > ul > li > a {
           font-size: 13px; } }
@@ -909,7 +912,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
         right: 0;
         width: 100%; }
       .main_menu nav > ul > li > a::before {
-        background: #222222;
+        background: #594377;
         bottom: 0;
         content: '';
         display: block;
@@ -1039,7 +1042,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     .header_wishlist {
       margin-right: 30px; } }
   .header_wishlist a {
-    border: 2px solid #ebebeb;
+    border: 1px solid #6ba43a;
     display: block;
     height: 50px;
     line-height: 46px;
@@ -1052,7 +1055,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     .header_wishlist a:hover {
       color: #c40316; }
     .header_wishlist a i {
-      font-size: 20px; }
+      font-size: 20px; color:#574377;}
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .header_wishlist a i {
           font-size: 18px; } }
@@ -1075,7 +1078,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
         line-height: 36px;
         width: 40px; } }
     .header_wishlist a span.wishlist_count {
-      background: #c40316;
+      background: #6ba43a;
       color: #fff;
       font-size: 13px;
       height: 22px;
@@ -1114,16 +1117,29 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   .mini_cart_wrapper > a i.ion-ios-arrow-down {
     margin-left: 4px; }
   .mini_cart_wrapper > a i.fa-shopping-bag {
-    border: 2px solid #ebebeb;
-    display: inline-block;
-    height: 50px;
-    line-height: 46px;
-    text-align: center;
-    width: 50px;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    border-radius: 100%;
-    font-size: 20px; }
+   border: 1px solid
+#6ba43a;
+
+display: inline-block;
+
+height: 50px;
+
+line-height: 46px;
+
+text-align: center;
+
+width: 50px;
+
+-webkit-border-radius: 100%;
+
+-moz-border-radius: 100%;
+
+border-radius: 100%;
+
+font-size: 20px;
+
+color:
+#594377; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .mini_cart_wrapper > a i.fa-shopping-bag {
         height: 46px;
@@ -1140,7 +1156,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
         line-height: 36px;
         width: 40px; } }
   .mini_cart_wrapper > a span.cart_count {
-    background: #c40316;
+    background: #6ba43a;
     color: #fff;
     font-size: 13px;
     height: 22px;
@@ -1442,7 +1458,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     .hover_category {
       margin-left: 0; } }
   .hover_category:hover {
-    background: #c40316; }
+    background: #594377; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .hover_category:hover {
         background: inherit; } }
@@ -1642,7 +1658,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     -o-transition: 0.3s;
     transition: 0.3s; }
     .search_box button:hover {
-      background: #333; }
+      background: #6ba43a; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .search_box button {
         padding: 0 17px;
@@ -1664,7 +1680,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 /*search container css end*/
 .header_bigsale a {
-  background: #333;
+  background: #6ba43a;
   color: #fff;
   display: block;
   font-size: 14px;
@@ -1679,7 +1695,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   -moz-border-radius: 4px;
   border-radius: 4px; }
   .header_bigsale a:hover {
-    background: #c40316; }
+    background: #594377; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header_bigsale a {
       height: 45px;
@@ -2430,8 +2446,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .slider_s_one .s_banner {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 23%;
-  flex: 0 0 23%;
-  max-width: 23%; }
+  flex: 0 0 25%;
+  max-width: 25%; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .slider_s_one .s_banner {
       -webkit-box-flex: 0;
@@ -2450,11 +2466,9 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  height: 445px;
   margin-right: 0 !important; }
   @media only screen and (min-width: 1200px) and (max-width: 1600px) {
-    .single_slider {
-      height: 418px; } }
+     }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .single_slider {
       height: 351px; } }
@@ -2587,7 +2601,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     background: #c40316; }
     .slider_content a:hover {
       color: #ffffff;
-      background: #222222; }
+      background: #594377; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .slider_content a {
         padding: 0 20px;
@@ -2644,8 +2658,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   height: 60px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  border-left: 1px solid #ddd;
-  border-bottom: 1px solid #ddd; }
+   }
   .gallery-thumbs .swiper-slide {
     border-right: 1px solid #ebebeb;
     padding: 8px 16px;
@@ -2851,10 +2864,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .banner_thumb {
   position: relative;
   overflow: hidden; }
-  .banner_thumb:hover img {
-    -webkit-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    transform: scale(1.05); }
+  
   @media only screen and (max-width: 767px) {
     .banner_thumb a {
       width: 100%; } }
@@ -2944,9 +2954,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   border-left: 1px solid #ebebeb;
   border-top: 1px solid #ebebeb; }
 
-.home_section_bg {
-  background: #F5F5F9;
-  padding: 60px 0 132px; }
+
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .home_section_bg {
       padding: 60px 0 79px; } }
@@ -3043,7 +3051,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     margin-bottom: 0;
     padding-bottom: 7px;
     text-transform: capitalize;
-    border-bottom: 3px solid #c40316; }
+    border-bottom: 3px solid #594377; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .section_title h2 {
         font-size: 20px;
@@ -3064,9 +3072,9 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .single_product {
   border-radius: 4px;
   background: #ffffff;
-  border-top: 1px solid #ebebeb;
+  /*border-top: 1px solid #ebebeb;
   border-bottom: 1px solid #ebebeb;
-  border-left: 1px solid #ebebeb; }
+  border-left: 1px solid #ebebeb; */}
   .single_product:hover {
     -webkit-box-shadow: 0px 0px 13.5px 1.5px rgba(0, 0, 0, 0.07);
     -moz-box-shadow: 0px 0px 13.5px 1.5px rgba(0, 0, 0, 0.07);
@@ -3145,8 +3153,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     max-width: 220px;
     width: 100%; }
     .add_to_cart a:hover {
-      background: #c40316;
-      border-color: #c40316;
+      background: #594377;
+      border-color: #594377;
       color: #ffffff; }
     @media only screen and (max-width: 767px) {
       .add_to_cart a {
@@ -3243,7 +3251,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     display: inline-block; }
     .action_links ul li a {
       font-size: 21px;
-      border: 2px solid #ebebeb;
+      border: 2px solid #6ba43a;
       height: 43px;
       width: 43px;
       line-height: 39px;
@@ -3251,8 +3259,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
       background: #ffffff;
       display: block; }
       .action_links ul li a:hover {
-        background: #c40316;
-        border-color: #c40316;
+        background: #6ba43a;
+        border-color: #6ba43a;
         color: #ffffff; }
 
 .product_rating ul {
@@ -3314,9 +3322,9 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     text-transform: capitalize;
     display: block; }
     .product_tab_btn ul li a:hover {
-      color: #c40316; }
+      color: #594377; }
     .product_tab_btn ul li a.active {
-      color: #c40316; }
+      color: #594377; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .product_tab_btn ul li a {
         font-size: 13px; } }
@@ -3407,9 +3415,9 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   transform: translatey(-50%);
   font-size: 24px;
   border: 1px solid #ebebeb;
-  width: 65px;
-  height: 65px;
-  line-height: 63px;
+  width: 50px;
+  height:50px;
+  line-height: 50px;
   border-radius: 50%;
   background: #ffffff;
   text-align: center;
@@ -3435,8 +3443,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
       font-size: 20px; } }
   .product_carousel .owl-nav div:hover {
     color: #ffffff;
-    background: #c40316;
-    border-color: #c40316; }
+    background: #594377;
+    border-color: #594377; }
   .product_carousel .owl-nav div.owl-next {
     right: -30px;
     left: auto; }
@@ -4039,7 +4047,9 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   line-height: 18px;
   text-transform: capitalize;
   font-weight: 500;
-  margin-bottom: 3px; }
+  margin-bottom: 3px; 
+color:#594377;
+}
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .shipping_content h4 {
       font-size: 13px; } }
@@ -4135,7 +4145,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   padding-bottom: 11px; }
   .widgets_container h3::before {
     position: absolute;
-    background: #c40316;
+    background: #6b4377;
     content: '';
     display: block;
     height: 3px;
@@ -4283,7 +4293,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
       text-decoration: underline; }
 
 .footer_bottom {
-  padding: 30px 0; }
+  padding: 10px 0; }
   @media only screen and (max-width: 767px) {
     .footer_bottom {
       padding: 20px 0 25px; } }
@@ -4292,7 +4302,6 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   font-size: 14px;
   line-height: 23px;
   text-transform: capitalize;
-  font-style: italic;
   margin-bottom: 8px; }
 
 /* 10. shop page css here */
@@ -6284,9 +6293,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 /*wishlist css end*/
 /* 15. contact page css here */
-.contact_page_bg {
-  background: #F5F5F9;
-  padding: 60px 0 133px; }
+
   @media only screen and (max-width: 767px) {
     .contact_page_bg {
       padding: 60px 0 111px; } }
@@ -6300,7 +6307,9 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   text-transform: capitalize;
   font-weight: 500;
   line-height: 20px;
-  margin-bottom: 25px; }
+  margin-bottom: 25px; 
+color:#594377;
+}
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .contact_message h3 {
       margin-bottom: 20px; } }
@@ -6317,6 +6326,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .contact_message ul li {
   padding: 13px 0;
   border-top: 1px solid #ebebeb; }
+  .contact_message ul li:hover{color:#6ba43a;}
   .contact_message ul li:last-child {
     padding-bottom: 0; }
   .contact_message ul li i {
@@ -6331,14 +6341,18 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 .contact_message input {
   border: 1px solid #ebebeb;
-  height: 45px;
-  background: #ffffff;
-  width: 100%;
-  padding: 0 20px;
-  color: #757575; }
+height: 34px;
+background:
+#ffffff;
+width: 48%;
+padding: 0 20px;
+color:#757575;
+float: left;
+
+margin-bottom: 3%; }
 
 .contact_message textarea {
-  height: 170px;
+
   border: 1px solid #ebebeb;
   background: #ffffff;
   resize: none;
@@ -6349,20 +6363,33 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 .contact_message button {
   font-weight: 400;
-  height: 42px;
-  line-height: 42px;
-  padding: 0 30px;
-  text-transform: capitalize;
-  border: none;
-  background: #222222;
-  color: #ffffff;
-  cursor: pointer;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-  border-radius: 4px; }
+
+height: 30px;
+
+line-height: 30px;
+
+padding: 0 18px;
+
+text-transform: capitalize;
+
+border: none;
+
+background: #594377;
+
+color:
+#ffffff;
+
+cursor: pointer;
+
+-webkit-transition: 0.3s;
+
+-o-transition: 0.3s;
+
+transition: 0.3s;
+
+border-radius: 4px;}
   .contact_message button:hover {
-    background: #c40316; }
+    background: #6ba43a; }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .contact_message.content {
@@ -6683,7 +6710,6 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 /*my account css end*/
 /* 10. about page css here */
 .about_bg_area {
-  background: #F5F5F9;
   padding: 55px 0 133px; }
   @media only screen and (max-width: 767px) {
     .about_bg_area {
@@ -6754,7 +6780,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  padding: 100px 0 96px; }
+   }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .choseus_area {
       padding: 60px 0 55px; } }
@@ -6766,7 +6792,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   text-align: center; }
   @media only screen and (max-width: 767px) {
     .single_chose {
-      margin-bottom: 25px; } }
+      margin-bottom: 25px;
+      background: white; } }
   .single_chose:hover .chose_icone {
     -webkit-transform: rotatey(180deg);
     -ms-transform: rotatey(180deg);
@@ -8023,7 +8050,6 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   top: 50% !important;
   margin-top: -179px;
   position: fixed !important;
-  padding: 50px;
   text-align: center;
   display: none; }
   @media only screen and (max-width: 767px) {
@@ -8310,4 +8336,42 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 /*privacy policy css end*/
 
-/*# sourceMappingURL=style.css.map */
+
+.logo{width: 140%;}
+.prescription{
+ 
+}
+.prescription table tr{
+  border-bottom: 1px solid #ECECEC;
+}
+.prescription table tr input{
+ width: 94%;
+margin-top: 10px;
+margin-bottom: 10px;
+background-image: linear-gradient(to bottom,#fefefe,#f2f2f2);
+border: 1px solid #ECECEC;
+height: 45px;
+padding-left: 10px;
+color:#b8b8b8;
+}
+
+.main_menu nav > ul > li > a:hover{
+ color: #594377;
+}
+.shipping_content i{
+  color:#594377;
+  font-size: 32px;
+}
+.shipping_content p{
+  color:#594377;
+}
+.col-shipping-box:hover{
+  background:#594377;
+}
+
+.col-shipping-box:hover .shipping_content i{color: white;}
+.col-shipping-box:hover .shipping_content p{color: white;}
+.col-shipping-box:hover .shipping_content h4{color: white;}
+    @media only screen and (max-width: 360px){
+      .container{margin-left: 0px;}
+    }
